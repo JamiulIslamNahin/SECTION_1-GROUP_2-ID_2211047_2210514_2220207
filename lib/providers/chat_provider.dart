@@ -15,7 +15,7 @@ class ChatProvider extends ChangeNotifier {
   late final GeminiService _gemini;
 
   ChatProvider({required this.language}) {
-    _gemini = GeminiService("AIzaSyBl0CMgO_oM4DAmwmLwogFmk82kW1yHRk0");
+    _gemini = GeminiService("AIzaSyDx6-4KjyqU6Yl65sfyJ0Fsf9aNdXmTcs0");
     generateWelcomeMessage();
   }
 
